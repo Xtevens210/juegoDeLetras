@@ -1,10 +1,8 @@
 import './App.css';
 import { useState } from 'react';
+//Importaciones
+//Componentes
 import Ficha from './components/Ficha';
-import LetraA from './Imagenes/carta-a.png';
-import Avion from './Imagenes/avion.png'
-import LetraB from './Imagenes/letra-b.png'
-import Ballena from './Imagenes/ballena.png'
 import BotonesColor from './components/BotonesColor';
 import ImagenDeFondo from './components/ImagenDeFondo';
 import FondoWeb1 from './Imagenes/FondoWeb-default.jpg';
@@ -13,8 +11,19 @@ import FondoWebRojo from './Imagenes/FondoWeb-rojo.jpg';
 import FondoWebVerde from './Imagenes/FondoWeb-verde.jpg';
 import FondoWebRosa from './Imagenes/FondoWeb-rosa.jpg';
 
+//Letras
+import LetraA from './Imagenes/carta-a.png';
+import LetraB from './Imagenes/letra-b.png';
+import LetraH from './Imagenes/letra-h.png';
 
+//Imagenes
+import Avion from './Imagenes/avion.png';
+import LasPistasDeBlue from './Imagenes/lasPistasDeBlue.png';
+import HakunaMatata from './Imagenes/HakunaMatata.png';
 
+//Audios
+import BlueAudio from './audios/LasPistasDeBlue.ogg';
+import HakunaMatataAudio from './audios/HakunaMatata.mp3';
 
 
 function App() {
@@ -42,14 +51,8 @@ function App() {
       <BotonesColor color="Rojo" funcion={cambioDeFondo} claseLabel="boton-rojo-label" claseDiv="boton-rojo-div"/>
       <BotonesColor color="Rosa" funcion={cambioDeFondo} claseLabel="boton-rosa-label" claseDiv="boton-rosa-div"/>
       <Ficha icono={LetraA} icono2={Avion} nombreIcono="Avion" name="Letra A"/>
-      <Ficha icono={LetraB} icono2={Ballena} nombreIcono="Ballena" name="Letra B"/>
-      <Ficha icono={LetraB} icono2={Ballena} nombreIcono="Ballena" name="Letra B"/>
-      <Ficha icono={LetraB} icono2={Ballena} nombreIcono="Ballena" name="Letra B"/>
-      <Ficha icono={LetraB} icono2={Ballena} nombreIcono="Ballena" name="Letra B"/>
-      <Ficha icono={LetraB} icono2={Ballena} nombreIcono="Ballena" name="Letra B"/>
-      <Ficha icono={LetraB} icono2={Ballena} nombreIcono="Ballena" name="Letra B"/>
-      <Ficha icono={LetraB} icono2={Ballena} nombreIcono="Ballena" name="Letra B"/>
-      <Ficha icono={LetraB} icono2={Ballena} nombreIcono="Ballena" name="Letra B"/>
+      <Ficha icono={LetraB} icono2={LasPistasDeBlue} nombreIcono="Blue" name="Letra B" audio={BlueAudio}/>
+      <Ficha icono={LetraH} icono2={HakunaMatata} nombreIcono="Hakuna Matata" name="Letra H" audio={HakunaMatataAudio}/>
     </div>
   );
 }
