@@ -40,12 +40,17 @@ color:aliceblue;
   }
 }
 
+h2 {
+  position: relative;
+  top: 1vw;
+}
+
 .ficha-div-click {
   text-align: center;
   background-color: rgb(11, 0, 75);
   border: 0.5vw solid rgb(0, 194, 129);
   border-radius: 10vw;
-  font-family: 'Indie Flower', cursive;
+  font-family:  'Luckiest Guy', cursive;
   margin: 1vw 1vw 1vw 1vw;
   box-shadow: 0.3vw 0.3vw rgba(0, 0, 0, 0.363);
   transform: rotate(-360deg);
@@ -168,4 +173,11 @@ text-align: center;
 .audio {
 border-radius: 50vw;
 width: 18vw;
+}
+
+.link {
+  width: 4vw;
+  position: relative;
+  bottom: 1.6vw;
+  left: 1vw;
 }
