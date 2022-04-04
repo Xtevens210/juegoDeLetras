@@ -23,6 +23,17 @@ import LetraT from './Imagenes/letra-t.png';
 import LetraV from './Imagenes/letra-v.png';
 import LetraM from './Imagenes/letra-m.png';
 import LetraL from './Imagenes/letra-l.png';
+import LetraD from './Imagenes/letra-d.png';
+import LetraE from './Imagenes/letra-e.png';
+import LetraJ from './Imagenes/letra-j.png';
+import LetraF from './Imagenes/letra-f.png';
+import LetraW from './Imagenes/letra-w.png';
+import LetraI from './Imagenes/letra-i.png';
+import LetraK from './Imagenes/letra-k.png';
+import LetraQ from './Imagenes/letra-q.png';
+import LetraR from './Imagenes/letra-r.png';
+import LetraS from './Imagenes/letra-s.png';
+import Interogante from './Imagenes/signo-de-interrogacion.png';
 
 //Imagenes
 import LasPistasDeBlue from './Imagenes/lasPistasDeBlue.png';
@@ -36,6 +47,17 @@ import BabyShark from './Imagenes/BabyShark.png';
 import VacaLola from './Imagenes/vacaLola.png';
 import MinieMouse from './Imagenes/MinieMouse.png';
 import LucasAraña from './Imagenes/LucasAraña.png';
+import Dexter from './Imagenes/dexter.png';
+import Encanto from './Imagenes/Encanto.png';
+import Jerry from './Imagenes/jerry.png';
+import Furia from './Imagenes/furia.png';
+import WinniePooh from './Imagenes/winniePoh.png';
+import HeroesPijamas from './Imagenes/heroesEnPijama.png';
+import Increibles from './Imagenes/Increibles.png';
+import Kermit from './Imagenes/kermit.png';
+import QueenAbeja from './Imagenes/queenAbeja.png';
+import Rex from './Imagenes/rex.png';
+import Stich from './Imagenes/stich.png';
 
 //Audios
 import BlueAudio from './audios/LasPistasDeBlue.ogg';
@@ -49,6 +71,17 @@ import BabySharkAudio from './audios/babySharkAudio.mp3';
 import VacaLolaAudio from './audios/VacaLolaAudio.mp3';
 import MickyMouseAudio from './audios/mickyMouseAudio.mp3';
 import LucasArañaAudio from './audios/LucasArañaAudio.mp3';
+import DexterAudio from './audios/dexterAudio.mp3';
+import EncantoAudio from './audios/EncantoAudio.mp3';
+import TomJerryAudio from './audios/tomJerryAudio.mp3';
+import Intensamente from './audios/intensamente.mp3';
+import WinnieAudio from './audios/winniePoh.mp3';
+import HeroesPijamasAudio from './audios/heroesEnPijama.mp3';
+import IncreiblesAudio from './audios/increibles cancion.mp3';
+import MuppetsAudio from './audios/muppetsAudio.mp3';
+import QueenAbejaAudio from './audios/queenAbejaAudio.mp3';
+import ToyStoryAudio from './audios/toyStory.mp3';
+import StichAudio from './audios/stichAudio.mp3';
 
 function App() {
   const [fondo, setFondo] = useState(FondoWeb1);
@@ -77,14 +110,25 @@ function App() {
       <Ficha icono={LetraA} icono2={AvePañales} nombreIcono="Aventuras en pañales" name="Letra A" audio={AvePañalesAudio} link="https://www.youtube.com/watch?v=YIte86Os_k0&list=PLJC2CfG2fpdboo4aSGT_J2Lbw0ThIA7GS&index=2"/>
       <Ficha icono={LetraB} icono2={LasPistasDeBlue} nombreIcono="Blue" name="Letra B" audio={BlueAudio} link="https://www.youtube.com/watch?v=S3wSlXgnl-c&list=PL2PbHaJs0TtrnNGzjV8JraYZ_vezmbUI2"/>
       <Ficha icono={LetraC} icono2={Bugs} nombreIcono="Conejo/Bugs Bunny" name="Letra C" audio={LoneyTunes} link="https://www.youtube.com/watch?v=-X7JC9LChXY&list=PLvJKlTXowkBXJf3646UuEbWSVAkJTxIxq"/>
+      <Ficha icono={LetraD} icono2={Dexter} nombreIcono="Dexter" name="Letra D" audio={DexterAudio} link="https://www.youtube.com/watch?v=DkNkuq35Oy8&list=PL-KjNj8zF3RPoiFNFt-n6Wf3R8K54UHu0"/>
+      <Ficha icono={LetraE} icono2={Encanto} nombreIcono="Encanto" name="Letra E" audio={EncantoAudio} link="https://www.youtube.com/watch?v=wTi8yLyHeb8"/>
+      <Ficha icono={LetraF} icono2={Furia} nombreIcono="Furia" name="Letra F" audio={Intensamente} link="https://www.youtube.com/watch?v=uUl-P-ujReQ&list=PL8mImF3epTVsi4UP-igTH-sz8EuE3WRR7"/>
       <Ficha icono={LetraG} icono2={Goku} nombreIcono="Goku" name="Letra G" audio={DragonBallAudio} link="https://www.youtube.com/watch?v=AvMT4Aquasc&list=PLEPPMZPjXfINH3RxAbbFyAbBsQsJZErmm"/>
-      <Ficha icono={LetraH} icono2={HakunaMatata} nombreIcono="Hakuna Matata" name="Letra H" audio={HakunaMatataAudio} link="https://www.youtube.com/watch?v=oPCRbYT6M7A&list=PLt-oe_SIwEuTirCGthW98h5Gv6lcCAR7f"/>
+      <Ficha icono={LetraH} icono2={HeroesPijamas} nombreIcono="Heroes En Pijamas" name="Letra H" audio={HeroesPijamasAudio} link="https://www.youtube.com/watch?v=1xEvkxLU1Uk&list=PLZPmpoFCO8K7pI2EsU4OkjlEiFF-XSuzb"/>
+      <Ficha icono={LetraI} icono2={Increibles} nombreIcono="Increibles" name="Letra I" audio={IncreiblesAudio} link="https://www.youtube.com/watch?v=FAFFG3FvCtQ&list=PLeumbFZsdLylptNZwLsPWGxD3lpceriIu"/>
+      <Ficha icono={LetraJ} icono2={Jerry} nombreIcono="Jerry" name="Letra J" audio={TomJerryAudio} link="https://www.youtube.com/watch?v=iN-bcfCEzF4&list=PLpPkJYhcdhYbNykXd_EyIzKXChjt8n6M8&index=2"/>
+      <Ficha icono={LetraK} icono2={Kermit} nombreIcono="Kermit" name="Letra K" audio={MuppetsAudio} link="https://www.youtube.com/watch?v=DyoGTxkhw18&list=PLj4SAFyoWC0BHs-LZuaIFrHp99aDq60Dn"/>
       <Ficha icono={LetraL} icono2={LucasAraña} nombreIcono="Lucas La Araña" name="Letra L" audio={LucasArañaAudio} link="https://www.youtube.com/watch?v=bjxvf7vZuq4"/>
       <Ficha icono={LetraM} icono2={MinieMouse} nombreIcono="Minie Mouse" name="Letra M" audio={MickyMouseAudio} link="https://www.youtube.com/watch?v=MveUdv8VxMk&list=PLpB5fBabXdoWnixsHxWyo6AA4lr8b34Hy"/>
       <Ficha icono={LetraO} icono2={Olaf} nombreIcono="Olaf" name="Letra O" audio={OlafAudio} link="https://www.youtube.com/watch?v=CaK5vz6B1r0&list=PLiNVoBckLqLk5QeChEGK-4k3rYceryeUw"/>
       <Ficha icono={LetraP} icono2={Pikachu} nombreIcono="Pikachu" name="Letra P" audio={PokemonAudio} link="https://www.youtube.com/watch?v=uDIoEbbFKAY&list=PLRhT4-rJUyveV3QGGFbghKQZ5g5Ta75FH&index=2"/>
+      <Ficha icono={LetraQ} icono2={QueenAbeja} nombreIcono="Queen Abeja" name="Letra Q" audio={QueenAbejaAudio} link="https://www.youtube.com/watch?v=bQXY7Tnwi20&t=16s"/>
+      <Ficha icono={LetraR} icono2={Rex} nombreIcono="Rex" name="Letra R" audio={ToyStoryAudio} link="https://www.youtube.com/watch?v=1X32z0YVWvg&list=PL4JN7Q6UwE7IJO7_VSEBW_CK689BwhoIp"/>
+      <Ficha icono={LetraS} icono2={Stich} nombreIcono="Stich" name="Letra S" audio={StichAudio} link="https://www.youtube.com/watch?v=KtsV4bWPHsY&list=PLplujYajPCTA6ezwkTCAEFJIrP5Nb3UjK"/>
       <Ficha icono={LetraT} icono2={BabyShark} nombreIcono="Tiburon Bebe" name="Letra T" audio={BabySharkAudio} link="https://www.youtube.com/watch?v=irxVbTygChE&list=PLXJZReOlh8yLu_ZlzrnnhZv-PQN2pGrtD"/>
       <Ficha icono={LetraV} icono2={VacaLola} nombreIcono="Vaca Lola" name="Letra V" audio={VacaLolaAudio} link="https://www.youtube.com/watch?v=7_lNBerhBq4&list=PLwUxYVNN22j-pRJDr_a_9L05_gcasast-"/>
+      <Ficha icono={LetraW} icono2={WinniePooh} nombreIcono="Winnie Pooh" name="Letra W" audio={WinnieAudio} link="https://www.youtube.com/watch?v=jQGgal7UaPU&list=PLjOSc_Mznivcp5IKMMkXDMqjXOBW6MyPL"/>
+      <Ficha icono={Interogante} icono2={HakunaMatata} nombreIcono="Hakuna Matata" name="Letra H" audio={HakunaMatataAudio} link="https://www.youtube.com/watch?v=oPCRbYT6M7A&list=PLt-oe_SIwEuTirCGthW98h5Gv6lcCAR7f"/>
     </div>
   );
 }
