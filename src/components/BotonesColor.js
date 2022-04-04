@@ -6,7 +6,6 @@ export default function BotonesColor(props) {
         <label className={props.claseLabel}>{props.color}
             <button onClick={() => props.funcion(props.color)}></button>
         </label>
-        
     </div>
   )
 }
