@@ -33,6 +33,10 @@ import LetraK from './Imagenes/letra-k.png';
 import LetraQ from './Imagenes/letra-q.png';
 import LetraR from './Imagenes/letra-r.png';
 import LetraS from './Imagenes/letra-s.png';
+import LetraU from './Imagenes/letra-u.png';
+import LetraX from './Imagenes/letra-x.png';
+import LetraY from './Imagenes/letra-y.png';
+import LetraZ from './Imagenes/letra-z.png';
 import Interogante from './Imagenes/signo-de-interrogacion.png';
 
 //Imagenes
@@ -58,6 +62,11 @@ import Kermit from './Imagenes/kermit.png';
 import QueenAbeja from './Imagenes/queenAbeja.png';
 import Rex from './Imagenes/rex.png';
 import Stich from './Imagenes/stich.png';
+import UnderDog from './Imagenes/underdog.png';
+import XMen from './Imagenes/xMen.png';
+import Yeti from './Imagenes/yeti.png';
+import Zeus from './Imagenes/Zeus.png';
+import BlueyBingo from './Imagenes/blueyBingo.png';
 
 //Audios
 import BlueAudio from './audios/LasPistasDeBlue.ogg';
@@ -82,6 +91,11 @@ import MuppetsAudio from './audios/muppetsAudio.mp3';
 import QueenAbejaAudio from './audios/queenAbejaAudio.mp3';
 import ToyStoryAudio from './audios/toyStory.mp3';
 import StichAudio from './audios/stichAudio.mp3';
+import UnderdogAudio from './audios/underdogAudio.mp3';
+import XMenAudio from './audios/xMenAudio.mp3';
+import MonstersInAudio from './audios/monsterIncAudio.mp3';
+import HerculesAudio from './audios/herculesAudio.mp3';
+import BlueyBingoAudio from './audios/BlueyBingo.mp3';
 
 function App() {
   const [fondo, setFondo] = useState(FondoWeb1);
@@ -126,9 +140,14 @@ function App() {
       <Ficha icono={LetraR} icono2={Rex} nombreIcono="Rex" name="Letra R" audio={ToyStoryAudio} link="https://www.youtube.com/watch?v=1X32z0YVWvg&list=PL4JN7Q6UwE7IJO7_VSEBW_CK689BwhoIp"/>
       <Ficha icono={LetraS} icono2={Stich} nombreIcono="Stich" name="Letra S" audio={StichAudio} link="https://www.youtube.com/watch?v=KtsV4bWPHsY&list=PLplujYajPCTA6ezwkTCAEFJIrP5Nb3UjK"/>
       <Ficha icono={LetraT} icono2={BabyShark} nombreIcono="Tiburon Bebe" name="Letra T" audio={BabySharkAudio} link="https://www.youtube.com/watch?v=irxVbTygChE&list=PLXJZReOlh8yLu_ZlzrnnhZv-PQN2pGrtD"/>
+      <Ficha icono={LetraU} icono2={UnderDog} nombreIcono="UnderDog" name="Letra U" audio={UnderdogAudio} link="https://www.youtube.com/watch?v=KlP6ucm6qS4"/>
       <Ficha icono={LetraV} icono2={VacaLola} nombreIcono="Vaca Lola" name="Letra V" audio={VacaLolaAudio} link="https://www.youtube.com/watch?v=7_lNBerhBq4&list=PLwUxYVNN22j-pRJDr_a_9L05_gcasast-"/>
       <Ficha icono={LetraW} icono2={WinniePooh} nombreIcono="Winnie Pooh" name="Letra W" audio={WinnieAudio} link="https://www.youtube.com/watch?v=jQGgal7UaPU&list=PLjOSc_Mznivcp5IKMMkXDMqjXOBW6MyPL"/>
-      <Ficha icono={Interogante} icono2={HakunaMatata} nombreIcono="Hakuna Matata" name="Letra H" audio={HakunaMatataAudio} link="https://www.youtube.com/watch?v=oPCRbYT6M7A&list=PLt-oe_SIwEuTirCGthW98h5Gv6lcCAR7f"/>
+      <Ficha icono={LetraX} icono2={XMen} nombreIcono="X-men" name="Letra X" audio={XMenAudio} link="https://www.youtube.com/watch?v=IwEks8ty5TI&list=PL3oa5Dnk2KRfSoLnd-a9FcoGvgmP28fu6"/>
+      <Ficha icono={LetraY} icono2={Yeti} nombreIcono="Yeti-Monsters Inc" name="Letra Y" audio={MonstersInAudio} link="https://www.youtube.com/watch?v=l-aEaxpC9CE&list=PLI0QEEWhf83bb-wK4zHXXcrAhhUP-gSdj"/>
+      <Ficha icono={LetraZ} icono2={Zeus} nombreIcono="Zeus-Hercules" name="Letra Z" audio={HerculesAudio} link="https://www.youtube.com/watch?v=QLyz0AIbzIo"/>
+      <Ficha icono={Interogante} icono2={HakunaMatata} nombreIcono="Hakuna Matata" name="Interrogante" audio={HakunaMatataAudio} link="https://www.youtube.com/watch?v=oPCRbYT6M7A&list=PLt-oe_SIwEuTirCGthW98h5Gv6lcCAR7f"/>
+      <Ficha icono={Interogante} icono2={BlueyBingo} nombreIcono="Bluey y Bingo" name="Interrogante" audio={BlueyBingoAudio} link="https://www.youtube.com/watch?v=ToY-UBAvCek&list=PL_0BB1yzZzOdefHvS-QWCMj47wvy55cja"/>
     </div>
   );
 }
